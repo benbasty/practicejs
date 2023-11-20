@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.buttons button {
+    width: fit-content;
+    margin: auto;
+}
