@@ -8,6 +8,7 @@ button.addEventListener('click', function() {
     const colorName = document.querySelector('h1');
     colorName.innerText = `rgb(${r}, ${g}, ${b})`;
 });
+
 const reset = document.querySelector('#reset');
 reset.addEventListener('click', function(){
     const colorName = document.querySelector('h1');
